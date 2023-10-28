@@ -1,0 +1,154 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Is anyone there?", "Greetings"],
+            "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?", "Hello, how may I assist you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Goodbye", "See you later", "Farewell", "Bye"],
+            "responses": ["Goodbye! If you have more questions, feel free to return.", "See you later! Take care.", "Farewell! Have a great day."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks for your help"],
+            "responses": ["You're welcome!", "You're most welcome!", "I'm here to help!", "Glad I could assist!"]
+        },
+        {
+            "tag": "about",
+            "patterns": ["Who are you?", "What is your role?", "Tell me about yourself"],
+            "responses": ["I'm your medical chatbot assistant. I'm here to provide information and answer your medical questions."]
+        },
+        {
+            "tag": "name",
+            "patterns": ["What is your name?", "How should I address you?", "Can I know your name?"],
+            "responses": ["You can call me MediBot.", "I'm MediBot, your medical assistant.", "I go by the name MediBot."]
+        },
+        {
+            "tag": "help",
+            "patterns": ["Can you help me?", "I need assistance", "I require support", "Help me, please"],
+            "responses": ["Of course, I'm here to help. What do you need assistance with?", "I'm here to assist you. Please tell me how I can help.", "I'm ready to support you. What's your concern?"]
+        },
+        {
+            "tag": "common_conditions",
+            "patterns": ["Tell me about common medical conditions", "What are some common illnesses?", "List common diseases"],
+            "responses": ["Common medical conditions include diabetes, hypertension, asthma, and more. If you have specific questions, feel free to ask."]
+        },
+        {
+            "tag": "medications",
+            "patterns": ["What are common medications?", "Tell me about prescription drugs", "List common medicines"],
+            "responses": ["Common medications include antibiotics, pain relievers, and antihypertensives. Always consult a healthcare professional for personalized advice."]
+        },
+        {
+            "tag": "symptoms",
+            "patterns": ["What are the symptoms of a heart attack?", "List flu symptoms", "I have cold symptoms", "What are common symptoms?"],
+            "responses": ["Common symptoms may include fever, cough, headache, fatigue, and more. If you're experiencing specific symptoms, it's important to consult a healthcare professional for proper evaluation and guidance."]
+        },
+        {
+            "tag": "treatment_options",
+            "patterns": ["How is diabetes treated?", "What are the treatment options for cancer?", "Tell me about treatment for allergies"],
+            "responses": ["Diabetes is managed with diet, exercise, and medications. Cancer treatment varies by type and stage. Allergies can be treated with antihistamines and allergen avoidance."]
+        },
+        {
+            "tag": "fever",
+            "patterns": ["Fever"],
+            "responses": ["Fever is a common symptom of various illnesses. Rest, stay hydrated, and use over-the-counter fever reducers like acetaminophen or ibuprofen according to label instructions."]
+        },
+        {
+            "tag": "cold",
+            "patterns": ["Common Cold"],
+            "responses": ["The common cold is a viral infection with symptoms like a runny nose and sneezing. Rest and hydration can help ease the symptoms."]
+        },
+        {
+            "tag": "cough",
+            "patterns": ["Cough"],
+            "responses": ["Coughing can result from different causes. Over-the-counter cough remedies may help, but if it persists, consult a healthcare professional."]
+        },
+        {
+            "tag": "headache",
+            "patterns": ["Headache"],
+            "responses": ["Headaches can have various causes. Over-the-counter pain relievers like ibuprofen or aspirin can provide relief for mild headaches."]
+        },
+        {
+            "tag": "diabetes",
+            "patterns": ["Diabetes"],
+            "responses": ["Diabetes is a chronic condition affecting blood sugar levels. It's managed with a combination of diet, exercise, and sometimes medication as prescribed by a healthcare provider."]
+        },
+        {
+            "tag": "hypertension",
+            "patterns": ["Hypertension"],
+            "responses": ["Hypertension, or high blood pressure, can be controlled through lifestyle changes like a healthy diet, regular exercise, and, if necessary, medication prescribed by a doctor."]
+        },
+        {
+            "tag": "heart_disease",
+            "patterns": ["Heart Disease"],
+            "responses": ["Heart disease encompasses various heart-related conditions. The treatment and management depend on the specific condition and may include lifestyle changes, medication, or surgery."]
+        },
+        {
+            "tag": "medication_fever",
+            "patterns": ["Fever Medication", "How to treat fever", "What to take for fever"],
+            "responses": ["For fever, over-the-counter medications like acetaminophen (Tylenol) or ibuprofen (Advil) can be used. Follow the recommended dosages."]
+        },
+        {
+            "tag": "medication_cold",
+            "patterns": ["Cold Medication", "How to treat a cold", "What to take for a cold"],
+            "responses": ["To manage cold symptoms, you can use over-the-counter cold remedies that may include decongestants, antihistamines, and pain relievers. Follow the label instructions."]
+        },
+        {
+            "tag": "medication_cough",
+            "patterns": ["Cough Medication", "How to treat a cough", "What to take for a cough"],
+            "responses": ["For a cough, over-the-counter cough syrups or lozenges with cough suppressants can be used. Always use as directed on the packaging."]
+        },
+        {
+            "tag": "medication_headache",
+            "patterns": ["Headache Medication", "How to treat a headache", "What to take for a headache"],
+            "responses": ["To relieve a headache, you can use over-the-counter pain relievers like ibuprofen or aspirin. Follow the recommended dosages."]
+        },
+        {
+            "tag": "runny_nose",
+            "patterns": ["Runny Nose", "Nasal Congestion", "Constantly Sneezing"],
+            "responses": ["A runny nose and sneezing can be due to allergies, a cold, or other factors. Over-the-counter antihistamines or decongestants may help. Rest and stay hydrated."]
+        },
+        {
+            "tag": "flu",
+            "patterns": ["Flu", "Influenza", "Flu Symptoms"],
+            "responses": ["The flu is caused by influenza viruses and can include symptoms like fever, muscle aches, and fatigue. Rest, hydration, and antiviral medications may be prescribed by a healthcare provider."]
+        },
+        {
+            "tag": "allergies",
+            "patterns": ["Allergies", "Allergic Reactions", "Allergy Symptoms"],
+            "responses": ["Allergies can cause symptoms like sneezing, itching, and congestion. Antihistamines and allergen avoidance can help manage allergy symptoms."]
+        },
+        {
+            "tag": "asthma",
+            "patterns": ["Asthma", "Asthma Symptoms", "Asthma Treatment"],
+            "responses": ["Asthma is a chronic respiratory condition with symptoms like wheezing and shortness of breath. It's managed with inhalers and lifestyle adjustments, as advised by a healthcare provider."]
+        },
+        {
+            "tag": "stomachache",
+            "patterns": ["Stomachache", "Abdominal Pain", "Upset Stomach"],
+            "responses": ["A stomachache can have various causes. Over-the-counter antacids or medications for specific conditions may provide relief. Consult a healthcare professional if it persists."]
+        },
+        {
+            "tag": "infection",
+            "patterns": ["Infection", "Signs of Infection", "How to treat an infection"],
+            "responses": ["Infections can vary. Treatment may involve antibiotics, antivirals, or antifungals, depending on the type of infection. Consult a healthcare provider for proper evaluation and treatment."]
+        },
+        {
+            "tag": "diet",
+            "patterns": ["What should I eat for a healthy diet?", "Give me diet advice", "What not to eat for a healthy diet"],
+            "responses": ["For a healthy diet, it's advisable to consume a balanced mix of fruits, vegetables, lean proteins, whole grains, and healthy fats. Limit the intake of sugary, processed foods and excessive salt and saturated fats. Staying hydrated is essential. Consult a nutritionist for personalized dietary guidance."]
+        },
+        {
+            "tag": "diabetes_diet",
+            "patterns": ["Diabetes Diet", "What should I eat with diabetes?", "Diet for diabetics"],
+            "responses": ["A balanced diet for diabetes includes whole grains, lean proteins, fruits, vegetables, and healthy fats. Limit your intake of sugary foods and refined carbohydrates. Monitor your carbohydrate intake and focus on portion control. Consult a dietitian for personalized guidance."]
+        },
+        {
+            "tag": "hypertension_diet",
+            "patterns": ["Hypertension Diet", "What to eat for high blood pressure?", "Diet for hypertension"],
+            "responses": ["A hypertension-friendly diet emphasizes low-sodium foods, such as fresh fruits, vegetables, whole grains, and lean proteins. Reduce your salt intake and avoid processed and fast foods. Limit alcohol and caffeine consumption. Consult a dietitian for personalized dietary recommendations."]
+        }
+    ]
+}
